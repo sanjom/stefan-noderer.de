@@ -69,7 +69,7 @@ reveals.forEach(el => revealObserver.observe(el));
 const SERVICES = {
   svc1: {
     title: 'Karosserie & Lack',
-    img: 'pictures/Noderer-damged-car-with-nuts-and-bolts.jpg',
+    img: 'images/Noderer-damged-car-with-nuts-and-bolts.jpg',
     imgAlt: 'Karosserie und Werkzeug',
     iconSvg: '<svg viewBox="0 0 24 24"><path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z"/></svg>',
     desc: 'Als besonders qualifizierter Karosserie-Fachbetrieb führen wir alle Arbeiten rund um Karosserie und Lackierung durch – von der kleinen Delle bis zur hochwertigen Neulackierung in Originalfarbe.',
@@ -84,7 +84,7 @@ const SERVICES = {
   },
   svc2: {
     title: 'Unfallinstandsetzung',
-    img: 'pictures/Noderer-damaged-car-big-shopname-writing.gif',
+    img: 'images/Noderer-damaged-car-big-shopname-writing.gif',
     imgAlt: 'Unfallschaden am Fahrzeug',
     iconSvg: '<svg viewBox="0 0 24 24"><path d="M10.29 3.86L1.82 18a2 2 0 0 0 1.71 3h16.94a2 2 0 0 0 1.71-3L13.71 3.86a2 2 0 0 0-3.42 0z"/><line x1="12" y1="9" x2="12" y2="13"/><line x1="12" y1="17" x2="12.01" y2="17"/></svg>',
     desc: 'Nach einem Unfall kümmern wir uns um alles – von der Schadensaufnahme über die Koordination mit Gutachtern bis zur vollständigen Instandsetzung Ihres Fahrzeugs. Wir arbeiten direkt mit allen Versicherungen zusammen.',
@@ -99,7 +99,7 @@ const SERVICES = {
   },
   svc3: {
     title: 'Autoglas & Steinschlag',
-    img: 'pictures/Noderer-damaged-glass-and-repaired-one.jpg',
+    img: 'images/Noderer-damaged-glass-and-repaired-one.jpg',
     imgAlt: 'Autoglas Steinschlagreparatur',
     iconSvg: '<svg viewBox="0 0 24 24"><rect x="3" y="3" width="18" height="18" rx="2" ry="2"/><circle cx="8.5" cy="8.5" r="1.5"/><polyline points="21 15 16 10 5 21"/></svg>',
     desc: 'Als offizieller AGS Autoglas Spezialist Partner bieten wir schnellen und professionellen Autoglasservice – vom Steinschlag bis zum kompletten Scheibentausch, oft direkt über Ihre Versicherung abgerechnet.',
@@ -114,7 +114,7 @@ const SERVICES = {
   },
   svc4: {
     title: 'HU / AU mit GTÜ',
-    img: 'pictures/Noderer-car-on-dyno-and-license-plate.gif',
+    img: 'images/Noderer-car-on-dyno-and-license-plate.gif',
     imgAlt: 'Fahrzeug auf dem Prüfstand',
     iconSvg: '<svg viewBox="0 0 24 24"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg>',
     desc: 'Als GTÜ-Partnerbetrieb führen wir Hauptuntersuchung und Abgasuntersuchung direkt vor Ort durch – kein extra Weg zur Prüfstelle nötig. Festgestellte Mängel können wir oft sofort beheben.',
@@ -129,7 +129,7 @@ const SERVICES = {
   },
   svc5: {
     title: 'Reifen & Felgen',
-    img: 'pictures/Noderer-wheel-and-tire-centre-of-pic.jpg',
+    img: 'images/Noderer-wheel-and-tire-centre-of-pic.jpg',
     imgAlt: 'Alufelge mit Reifen',
     iconSvg: '<svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><circle cx="12" cy="12" r="3"/><line x1="12" y1="2" x2="12" y2="5"/><line x1="12" y1="19" x2="12" y2="22"/><line x1="2" y1="12" x2="5" y2="12"/><line x1="19" y1="12" x2="22" y2="12"/></svg>',
     desc: 'Von der saisonalen Umrüstung bis zum neuen Felgensatz – wir bieten Ihnen einen umfassenden Reifen- und Felgenservice für alle Fahrzeugtypen und Reifengrößen.',
@@ -144,7 +144,7 @@ const SERVICES = {
   },
   svc6: {
     title: 'Klimaservice',
-    img: 'pictures/climat-service-car-noderer.webp',
+    img: 'images/climat-service-car-noderer.webp',
     imgAlt: 'Klimaservice Fahrzeug',
     iconSvg: '<svg viewBox="0 0 24 24"><path d="M12 2v20M2 12h20M4.93 4.93l14.14 14.14M19.07 4.93 4.93 19.07"/></svg>',
     desc: 'Eine regelmäßige Klimawartung verlängert die Lebensdauer Ihrer Anlage und sorgt für frische, saubere Luft im Fahrzeuginnenraum – besonders empfehlenswert vor der Sommersaison.',
