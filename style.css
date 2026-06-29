@@ -571,26 +571,34 @@ ul  { list-style: none; }
 }
 
 .modal-body {
-  padding: 1.75rem 2rem 2rem;
+  padding: 3rem 2rem 2rem;
 }
 
 .modal-icon {
-  width: 48px;
-  height: 48px;
+  position: absolute;
+  top: calc(220px - 26px);
+  left: 2rem;
+  z-index: 2;
+  width: 52px;
+  height: 52px;
   background: var(--clr-accent-bg);
+  border: 1.5px solid var(--clr-border);
   border-radius: 12px;
   display: grid;
   place-items: center;
-  margin-bottom: 1rem;
 }
 .modal-icon svg {
-  width: 24px;
-  height: 24px;
+  width: 26px;
+  height: 26px;
   stroke: var(--clr-accent);
   fill: none;
   stroke-width: 1.75;
   stroke-linecap: round;
   stroke-linejoin: round;
+}
+
+.modal-icon + .modal-title {
+  margin-top: .25rem;
 }
 
 .modal-title {
